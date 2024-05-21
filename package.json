@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/delicue/vue3-tranquil#readme",
   "dependencies": {
+    "create-vue": "^3.10.3",
+    "vite": "^5.2.11",
     "vue": "^3.4.27"
   }
 }
