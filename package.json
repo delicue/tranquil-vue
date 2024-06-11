@@ -1,6 +1,6 @@
 {
   "name": "@tranquil-tech/tranquil-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vue tool library.",
   "main": "index.js",
   "directories": {
