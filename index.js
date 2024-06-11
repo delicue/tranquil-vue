@@ -1,6 +1,3 @@
-import useState from './useState'
-
-export default {
-    useState,
-    
+export function test() {
+    console.log("this is it.")
 }
