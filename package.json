@@ -1,0 +1,46 @@
+{
+  "name": "@tranquil-tech/tranquil-vue",
+  "version": "1.0.0",
+  "description": "A Vue tool library.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@tranquil-tech/tranquil-vue": "^1.0.0",
+    "create-vue": "^3.10.3",
+    "csstype": "^3.1.3",
+    "entities": "^4.5.0",
+    "esbuild": "^0.20.2",
+    "estree-walker": "^2.0.2",
+    "fsevents": "^2.3.3",
+    "magic-string": "^0.30.10",
+    "nanoid": "^3.3.7",
+    "npm": "^10.8.1",
+    "picocolors": "^1.0.1",
+    "postcss": "^8.4.38",
+    "rollup": "^4.18.0",
+    "source-map-js": "^1.2.0",
+    "vite": "^5.2.13",
+    "vue": "^3.4.27"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delicue/tranquil-vue.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "tranquil",
+    "tranquil-tech"
+  ],
+  "author": "delicue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delicue/tranquil-vue/issues"
+  },
+  "homepage": "https://github.com/delicue/tranquil-vue#readme"
+}
