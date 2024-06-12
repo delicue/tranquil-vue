@@ -13,3 +13,6 @@ function useState(init: any) {
 }
 
 export { useState };
+
+const [state, setState] = useState(0);
+console.log(state.value)
