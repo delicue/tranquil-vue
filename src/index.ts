@@ -1,3 +1,5 @@
-export default function Logger() {
-    console.log(0)
+import { useDataToggle } from "../modules/useDataToggle";
+
+export {
+    useDataToggle
 }
