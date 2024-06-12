@@ -42,5 +42,9 @@
   "bugs": {
     "url": "https://github.com/delicue/tranquil-vue/issues"
   },
-  "homepage": "https://github.com/delicue/tranquil-vue#readme"
+  "homepage": "https://github.com/delicue/tranquil-vue#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
 }

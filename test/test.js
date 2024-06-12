@@ -1,4 +1,4 @@
-import { useState } from '@tranquil-tech/tranquil-vue';
+const useState = () => require('@tranquil-tech/tranquil-vue');
 
 const [value, setValue] = useState(0);
 
