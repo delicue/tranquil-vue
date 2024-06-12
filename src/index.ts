@@ -1,1 +1,3 @@
-console.log(2); //output: 8
+export function Logger(value: any) {
+    console.log(value)
+}
