@@ -1,3 +1,3 @@
-export function Logger(value: any) {
-    console.log(value)
+export default function Logger() {
+    console.log(0)
 }
