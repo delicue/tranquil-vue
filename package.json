@@ -25,6 +25,7 @@
     "vue": "^3.4.27"
   },
   "scripts": {
+    "start": "npx ts-node src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

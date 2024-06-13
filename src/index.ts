@@ -1,10 +1,5 @@
-const maxInterval = 12;
+import { maxInterval } from "../modules/maxInterval";
 
-function getArrayLength(arr: []) {
-    return arr.length;
-}
-
-export {
-    getArrayLength,
-    maxInterval,
+export default {
+    maxInterval
 }

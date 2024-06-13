@@ -1,3 +1,3 @@
-import { maxInterval } from "../src/index";
+import app from "../src/index";
 
-console.log(maxInterval);
+console.log(app.maxInterval);
