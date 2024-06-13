@@ -1,3 +1,3 @@
-import app from "../src/index";
+import app from "@tranquil-tech/tranquil-vue"
 
 console.log(app.maxInterval);
