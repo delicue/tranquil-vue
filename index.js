@@ -1,5 +1,3 @@
-const { useRouter } = require("./modules/useRouter");
+import { test } from "@tranquil-tech/tranquil-vue";
 
-module.exports = {
-    useRouter
-}
+test()
