@@ -1,5 +1,10 @@
-import { useDataToggle } from "../modules/useDataToggle";
+const maxInterval = 12;
+
+function getArrayLength(arr: []) {
+    return arr.length;
+}
 
 export {
-    useDataToggle
+    getArrayLength,
+    maxInterval,
 }
