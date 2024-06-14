@@ -4,7 +4,7 @@ function getArrayLength(arr: []) {
     return arr.length;
 }
 
-export {
+export default {
     getArrayLength,
     maxInterval,
 }

@@ -1,0 +1,1 @@
+declare module '@tranquil-tech/tranquil-vue';

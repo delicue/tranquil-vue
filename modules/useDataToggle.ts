@@ -4,13 +4,13 @@ import { ref, computed, readonly } from 'vue';
  * @param data 
  * @returns [`data`, `toggleData`]
  */
-function useDataToggle<T>(newData: T[]) {
+export default function useDataToggle<T>(newData: T[]) {
     //the available views for data to be displayed as
     const data = ref<T[]>(newData)
 
     const index = ref<number>(0)
 
-    const currentData = computed(() => data[index.value])
+    const currentData = computed(() => data.value[index.value])
     
     const toggleData = () : void => {
         index.value++
@@ -20,5 +20,3 @@ function useDataToggle<T>(newData: T[]) {
 
     return [readonly(currentData), toggleData] as const
 }
-
-export { useDataToggle };
