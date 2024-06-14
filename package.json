@@ -1,9 +1,11 @@
 {
   "name": "@tranquil-tech/tranquil-vue",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A Vue tool library.",
   "main": "build/index.ts",
-  "files": ["build/**/*"],
+  "files": [
+    "build/**/*"
+  ],
   "directories": {
     "test": "test"
   },
