@@ -1,18 +1,14 @@
 import { ref, readonly } from 'vue'
 
-function useState(init: any) {
+
+export default function useState<Type>(init: Type) {
     /** stateful object */
-    const state = ref<any>(init)
+    const state = ref<Type>(init)
     
     /** Change the state */
-    const setState = (newState: any) : void => {
-        state.value = newState
+    const setState = <Type>(newState: Type) : void => {
+        (state.value as Type) = newState
     }
 
-    return [readonly(state), setState] as const
+    return [readonly(state), setState] as const;
 }
-
-export { useState };
-
-const [state, setState] = useState(0);
-console.log(state.value)
